@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: #111;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    height: 64px;
+}
+
+#menu {
+    position: absolute;
+    top: 20px;
+    left: 28%;
+    width: 48%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu-li {
+    display: inline-block;
+    margin: 0 11px;
+    list-style: none;
+}
+
+.menu-li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.right-side {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+}
+
+#log-in,
+#sign-up {
+    padding: 7px 13px;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+#log-in {
+    background: #111;
+    color: #fff;
+}
+
+#sign-up {
+    background: #fff;
+    color: #222;
+}
+
+.right-side .material-symbols-outlined {
+    margin-left: 8px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+#left-side {
+    position: absolute;
+    top: 20px;
+    left: 2.2%;
+}
+
+#chat-icon {
+    width: 22px;
+    height: 22px;
+}
+
+#left-side h3 {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.hero {
+    position: relative;
+    width: 80%;
+    max-width: 1050px;
+    height: 590px;
+    margin: 72px auto 0;
+}
+
+.intro {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 46%;
+}
+
+.intro h1 {
+    margin-bottom: 24px;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.intro p {
+    max-width: 410px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.intro .availability {
+    margin-top: 22px;
+    color: #777;
+    font-size: 12px;
+}
+
+.try {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: #111;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.demo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49.5%;
+    height: 520px;
+    border-radius: 14px;
+    background: radial-gradient(ellipse at 43% 42%, #76c7f3 0%, #70bcf2 40%, #4e7df2 73%, #8664ed 100%);
+}
+
+.note {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    width: 84%;
+    padding: 22px 18px;
+    border-radius: 17px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.note-title {
+    margin-bottom: 7px;
+    color: #777;
+}
+
+.note-title .material-symbols-outlined {
+    margin-right: 6px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
